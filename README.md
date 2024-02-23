@@ -3,5 +3,5 @@
 
 <img src="./img/devops.png"/>
 
-## k8s 클러스터 구성 아키텍쳐
+## k8s 클러스터 구성 아키텍쳐 
 <img src="./img/클러스터 구성 아키텍처.png">
