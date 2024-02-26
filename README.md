@@ -9,6 +9,17 @@
 
 > [플레이 데이터] 한화시스템 BEYOND SW캠프 / WOOF
 
+## 💻 STACKS
+<div align=center>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white&color=black">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white&color=ffa500">
+<img src="https://img.shields.io/badge/jenkins-D24939?style=flat&logo=jenkins&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white&color=blue"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=blue&color=skyblue"/>
+<img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white">
+</div>
+
+***
 
 🎬[CI/CD 시연영상](https://www.youtube.com/watch?v=dhMrKTwNI8U&lc=UgzCJR3WxkvsckRyyO94AaABAg&ab_channel=%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C%EB%B0%B0%EC%9A%B0%EB%8A%94IT)   
 📃[프로젝트 회고록](블로그주소)
