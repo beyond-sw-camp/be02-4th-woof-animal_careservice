@@ -64,7 +64,7 @@ CI/CD를 적용했습니다.
 ## 🖥️ 운영 환경
 ***
 
-<img src="C:\Users\playdata\Downloads\image (11).png"/>
+<img src="./img/쿠버네티스.png"/>
 
 - 1개의 master와 4개의 worker들로 이루어져있다.
 
@@ -163,7 +163,7 @@ CI/CD를 적용했습니다.
 롤링 업데이트 방식을 사용한 이유
 <br/>
 <br/>
-<img src="C:\Users\playdata\Desktop\롤링.png"/>
+<img src="./img/롤링 업데이트.png"/>
 
 - 인스턴스를 늘리지 않고 하나씩 새로운 버전으로 업데이트 하는 방식
 
