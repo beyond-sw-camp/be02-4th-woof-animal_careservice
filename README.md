@@ -13,13 +13,39 @@
 <div align=center>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white&color=black">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white&color=ffa500">
-<img src="https://img.shields.io/badge/jenkins-D24939?style=flat&logo=jenkins&logoColor=white">
+<img src="https://img.shields.io/badge/jenkins-D24939?style=flat&logo=Jenkins&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white&color=blue"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=blue&color=skyblue"/>
-<img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white">
 </div>
 
 ***
+
+
+## k8s 클러스터 구성 아키텍쳐 
+***
+<img src="./img/클러스터 구성 아키텍처.png">
+
+
+
+## k8s상의 전체 서비스 아키텍쳐
+
+
+
+<img src="img\시스템 아키텍처 데브옵스2.png"/>
+
+```
+디플로이먼트로 프론트, 백 파드를 생성하고 Stateful set으로
+DB파드를 생성하였습니다.
+서비스를 사용하여 파드에 고유한 Cluster IP를 할당하였습니다.
+이를 통해 프론트 파드는 백엔드 서비스의 Cluster IP를 사용하여
+백엔드와 통신하고, 백엔드 파드는 DB 서비스의 Cluster IP를
+사용하여 DB와 통신할 수 있습니다.
+또한 사용자가 프론트 서비스를 이용할 수 있도록
+LoadBalancer 타입의 서비스를 생성하였습니다.
+```
+***
+
 
 🎬[CI/CD 시연영상](https://www.youtube.com/watch?v=dhMrKTwNI8U&lc=UgzCJR3WxkvsckRyyO94AaABAg&ab_channel=%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C%EB%B0%B0%EC%9A%B0%EB%8A%94IT)   
 📃[프로젝트 회고록](블로그주소)
@@ -30,7 +56,9 @@
 ## 📌 프로젝트 목표
 
 ```
-팀원 각자가 수정한 코드를 자동으로 빌드, 통합하고 통합한 코드를 편리하게 배포하기 위해 젠킨스 파이프라인을 구축하여 CI/CD를 적용했습니다.
+팀원 각자가 수정한 코드를 자동으로 빌드, 통합하고
+통합한 코드를 편리하게 배포하기 위해 젠킨스 파이프라인을 구축하여
+CI/CD를 적용했습니다.
 ```
 
 ***
@@ -141,22 +169,6 @@ execcommand 원격 서버 실행할 명령을 지정하였습니다.
 </details>
 
 
-## k8s상의 전체 서비스 아키텍쳐
-
-
-
-<img src="img\시스템 아키텍처 데브옵스2.png"/>
-
-```
-디플로이먼트로 프론트, 백, DB파드를 생성하고 서비스를 사용하여 각 파드에 고유한 Cluster IP를 할당하였습니다.
-이를 통해 프론트 파드는 백엔드 서비스의 Cluster IP를 사용하여 백엔드와 통신하고, 백엔드 파드는 DB 서비스의 Cluster IP를 사용하여 DB와 통신할 수 있습니다.
-또한 사용자가 프론트 서비스를 이용할 수 있도록 LoadBalancer 타입의 서비스를 생성하였습니다.
-```
-***
-
-## k8s 클러스터 구성 아키텍쳐 
-***
-<img src="./img/클러스터 구성 아키텍처.png">
 
 
 
