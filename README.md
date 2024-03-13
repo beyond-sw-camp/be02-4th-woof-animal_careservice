@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./img/pic1.png"  style="zoom:76%;" align="center"/>
+  
 </div>
 
 
