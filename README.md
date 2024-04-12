@@ -192,11 +192,194 @@ CI/CD를 적용했습니다.
 </details>
 
 <details>
-<summary>프론트 엔드 CI/CD 테스트</summary>
-<div>
+<summary>프론트 엔드 CI/CD 테스트 및 결과</summary> <br>
+
+<br>
+
+<details> 
+  
+<summary>회원 기능</summary>
 <br/>
 
-TEST
+일반 회원 가입 & 로그인
+<br/>
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/93915072/bf47c430-5fcd-4201-a916-d3f5e5f4216d">
+</p>
+<br/>
+
+매니저 회원 가입 & 로그인 
+<hr/>
+<p align="center">
+<img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/93915072/5ae8ff13-1946-4dc5-826c-289433143e85"> 
+</p>
+<br/>
+
+업체 회원 가입 & 로그인
+<hr/>
+<p align="center">
+<img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/93915072/fecdd191-c26c-493d-b078-f3d6cf51345c">
+</p>
+<br/>
+</details>
+
+
+
+<details>
+<summary>상품 기능</summary>
+<br/>
+
+업체 등록
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/ee6f650b-4e4f-44a8-b1cf-aec1ee8bd720">
+</p>
+<br/>
+
+업체 리스트
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/f9d36f71-6bc4-40b2-a74e-70021748b158">
+</p>
+<br/>
+
+업체 조회
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/164d8970-ee43-43e0-ac34-5cf7c45fa90b">
+</p>
+<br/>
+
+업체 수정
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/d2951578-f364-4313-80e3-8e2c025ef0ee">
+</p>
+<br/>
+
+업체 삭제
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/78bc5ac7-c233-49b1-9f12-d67c01bc5a68">
+</p>
+<br/>
+
+매니저 등록
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/73669221-794c-4092-a515-2b09c2937d09">
+</p>
+
+매니저 리스트
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/9b944368-d6ca-45fc-adfc-2850bd182d700">
+</p>
+
+매니저 조회
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/443c920d-4371-4363-9040-34f5a728cc0a">
+</p>
+
+
+매니저 수정
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/ed490434-54ac-4847-b3ff-b83d9f5c4db0">
+</p>
+
+매니저 삭제
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148935493/a0f44e8c-89ec-473a-b011-2d272dac8574">
+</p>
+</details>
+<details>
+<summary>주문 기능</summary>
+
+
+주문 등록
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/122515113/434fba18-33e4-4e62-b073-55977d53509d">
+	<br>
+	사용자가 업체와 매니저를 선택하고 폼 데이터를 양식에 맞게 입력하면 주문 전송이 완료된다
+</p>
+
+<br/>
+
+주문 내역 확인 
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/122515113/7e2ff502-7f41-47fb-aeea-d825f878a8c2">
+  <br> 주문 데이터를 보내면 예약내역, 삭제하기, 수정하기 창으로 넘어가게 되고 
+  내역을 누르면 사용자의 주문 내역이 모두 불러와진다
+
+</p>
+<br/>
+
+주문 수정
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/122515113/ad441577-cd83-4dba-aa34-f2b0fa276316">
+<br>사용자가 주문 수정하기를 누르면 수정 가능한 양식이 나오고 양식에 따라 작성 후 주문 데이터를 전송하면 주문 수정이 이뤄진다
+</p>
+
+<br/>
+
+
+주문 삭제
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/122515113/8fa4e810-10cf-455d-8d2c-71c7641e6d83">
+	<br>주문 삭제를 누르면 주문 삭제 후 메인 페이지로 이동하게 된다 
+</p>
+<br/>
+</details>
+
+<details>
+<summary>마이페이지 기능</summary>
+<br/>
+
+회원 정보 수정
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148943354/c336ce0c-acd0-4f46-8897-84f50392407d">
+</p>
+<br/>
+
+예약 내역
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/148943354/271c6a52-b4dc-4384-849f-5f85ac797c60">
+  </p>
+<br/>
+</details>
+
+<details>
+<summary>리뷰 기능</summary>
+<br/>
+
+리뷰 등록
+<hr/>
+<p align="center">
+  <img src="https://github.com/beyond-sw-camp/be02-3rd-woof-animal_careservice/assets/93915072/1538386d-8f18-4b83-962c-8d59b9f96597">
+</p>
+<br/>
+</details>
+
+<details>
+<summary>결제 기능</summary>
+결제 기능
+
+
+자세한 사진은 Docs/실행결과 폴더 확인해주세요.
+
+</details>
+<div>
+<br/>
 
 </div>
 </details>
